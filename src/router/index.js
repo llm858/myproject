@@ -4,6 +4,7 @@ import first from '@/components/first'
 import cart from '@/components/cart'
 import login from '@/components/login'
 import tabbarIcon from '@/components/tabbarIcon'
+import myheader from '@/components/myheader'
 
 Vue.use(Router)
 
@@ -33,6 +34,11 @@ export default new Router({
       path: '/tabbarIcon',
       name: 'tabbarIcon',
       component:tabbarIcon
+    },
+    {
+      path: '/myheader',
+      name: 'myheader',
+      component:myheader
     }
   ]
 })

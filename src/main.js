@@ -7,9 +7,10 @@ import Mint from 'mint-ui'
 import 'mint-ui/lib/style.css'
 import axios from 'axios'
 Vue.use(Mint);
-axios.defaults.withCredentials=true;
-axios.defaults.baseURL = 'http://localhost:3000/'; 
+axios.defaults.withCredentials=false;
+axios.defaults.baseURL = 'http://travel123.applinzi.com/'; 
 Vue.config.productionTip = false
+Vue.prototype.axios=axios;
 
 /* eslint-disable no-new */
 new Vue({

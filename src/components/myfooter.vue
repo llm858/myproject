@@ -2,7 +2,7 @@
 <div> 
   <!-- 底部导航栏 -->
 <mt-tabbar v-model="selected" v-show="isShow" fixed>
-  <mt-tab-item id="first" @click.native="changeState(1)">
+  <mt-tab-item id="first" @click.native="changeState(0)">
     <tabbaricon
        :selectedImage="require('../assets/index1.png')"
        :normalImage="require('../assets/index.png')"
@@ -68,8 +68,8 @@ export default {
             this.$router.push('/cart');
           }
           if (this.selected == "login") {
-            this.$router.push('/login')
-          } 
+            this.$router.push('/login');
+          }
           } 
           
         }

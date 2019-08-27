@@ -364,6 +364,9 @@
   }
 </script>
 <style scoped>
+a{
+  text-decoration: none;
+}
   .breadImage {
     width: 100%;
     height: 200px;
@@ -596,7 +599,7 @@
   .mtbutton {
     width: 280px;
     height: 20px;
-    margin: 0 0 0 220px;
+    margin: 0 auto;
     line-height: 20px;
     border-radius: 50px 0 0 0;
     opacity: 0.5;
@@ -604,7 +607,7 @@
   }
   
   .lastPage {
-    color: blue;
+    color: #fff;
     text-align: center;
     cursor: pointer;
     padding: 0 5px 0 5px;
@@ -612,11 +615,11 @@
   }
   
   .nextPage {
-    color: blue;
+    color: #fff;
     text-align: center;
     cursor: pointer;
     padding: 0 5px 0 5px;
-    margin-right:100px;
+    /* margin-right:100px; */
   }
   
   label {
